@@ -12,24 +12,8 @@
 <header>
 Southwest College Soccer
 </header>
-<nav class="nav_bar shadow" >
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="college_information.html" class="active">Southwest College Information</a></li>
-        <li><a href="conference_information.html">ARC Conference Information</a></li>
-        <li class="drop_down"> <a href="">Rosters:</a>
-            <ul class="drop_down_content">
-                <a href="womens_roster.html" class="drop">Women's Roster</a>
-                 <a href="mens_roster.html" class="drop">Men's Roster</a>
-            </ul></li>
-            <div class="drop2">
-            <li><a href="womens_roster.html">Women's Roster</a></li>
-            <li><a href="mens_roster.html">Men's Roster</a></li>
-            </div>
-        <li><a href="team_schedules.html">Team Schedules</a></li>
-        <li><a href="team_store.html">Team Store</a></li>
-    </ul>
-</nav>
+
+<?php include '../resources/nav.php'; ?>
           
 <article class="light_shadow">
 <h2>Southwest College Information</h2>
@@ -63,7 +47,7 @@ network of alumni, we strive to meet every student's need to learn and gain some
  <h3>Majors and Minors</h3>
 <p>Our current selection of majors and minors include +70 mmajors and +30 minors in over 20 different departments. What makes Southwest so unique is our ability to allow students to create their own path towards their major, in which the curriculum provides unrestricted assistance towards the exact career path of your choosing.</p> 
  
-<footer>© 2019 Southwest College. All Rights Reserved.</footer>
+<?php include '../resources/footer.php'; ?>
 </article>
 
 </body>
